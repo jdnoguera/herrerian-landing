@@ -14,8 +14,13 @@
         </nav>
 
         <div class="d-flex align-center">
-          <v-icon>mdi-instagram</v-icon>
-          <v-icon>mdi-facebook</v-icon>
+          <v-btn icon>
+            <v-icon>mdi-instagram</v-icon>
+          </v-btn>
+
+          <v-btn icon>
+            <v-icon>mdi-facebook</v-icon>
+          </v-btn>
         </div>
       </div>
     </v-app-bar>
@@ -49,7 +54,7 @@ export default {
 }
 
 .nav-item {
-  font-family: Alef;
+  font-family: Alef,serif;
   text-decoration: none;
   margin-left: 10px;
   font-size: 20px;
